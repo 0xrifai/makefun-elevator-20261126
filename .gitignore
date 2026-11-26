@@ -1,0 +1,18 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+
+# Runtime output (the entry is written to the absolute /output path, not here)
+/output/
+
+# OS and editor artefacts
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Local environment
+.env
+.env.local
